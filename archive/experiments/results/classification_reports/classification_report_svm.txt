@@ -1,0 +1,14 @@
+               precision    recall  f1-score   support
+
+      Feeling       0.22      0.24      0.23        17
+       Friend       0.36      0.27      0.31        15
+        Happy       0.44      0.25      0.32        16
+      Married       0.27      0.50      0.35        14
+  Necessities       0.18      0.20      0.19        15
+      NewYork       0.00      0.00      0.00        15
+   RememberMe       0.40      0.29      0.33        14
+TryEverything       0.14      0.14      0.14        14
+
+     accuracy                           0.23       120
+    macro avg       0.25      0.24      0.23       120
+ weighted avg       0.25      0.23      0.23       120

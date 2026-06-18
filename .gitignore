@@ -206,4 +206,31 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-data/
+# Project data and generated artifacts
+data/*
+!data/README.md
+!data/.gitkeep
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.npz
+models/*.h5
+models/*.keras
+models/*.pkl
+archive/**/models/
+archive/**/results/features/
+render_portfolio_report*/
+results/features/
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep lightweight reproducible outputs
+!results/
+!results/*.csv
+!figures/
+!figures/*.png

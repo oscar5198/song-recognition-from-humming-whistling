@@ -1,0 +1,6 @@
+Model,Features,Duration,Validation Accuracy,Test Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted F1,Notes
+Original Logistic Regression,Flattened MFCCs with original-style train augmentation,10s,0.3250,0.2833,0.3253,0.2786,0.2878,0.2922,Original corrected baseline; highest test score but not selected as final because later choices should be validation-led
+Original Random Forest,Flattened MFCCs with original-style train augmentation,10s,0.2833,0.2583,0.2628,0.2618,0.2557,0.2541,Original corrected baseline
+Original CNN,Log-mel spectrograms with original CNN architecture,10s,0.2833,0.2083,0.1645,0.2102,0.1440,0.1449,Experimental/weak CNN baseline; not recommended as final
+Diagnostic Random Forest,Combined compact summaries: MFCC/delta/log-mel/chroma/pitch/spectral,10s,0.3583,0.2750,0.2581,0.2797,0.2629,0.2594,Validation-selected diagnostic model; recommended final portfolio model
+SVM,Combined compact summaries: MFCC/delta/log-mel/chroma/pitch/spectral,10s,0.3583,0.2333,0.2524,0.2351,0.2337,0.2333,Strong SVM baseline; did not outperform diagnostic RF on test

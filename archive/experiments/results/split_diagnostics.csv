@@ -1,0 +1,5 @@
+model,split,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,notes,duration_seconds,feature_set,diagnostic_split
+rf,val,0.35833333333333334,0.3618454838075581,0.35463767237664295,0.35370879120879123,0.3600160256410257,subject_aware; duration=10s; feature_set=combined,10.0,combined,subject_aware
+rf,test,0.275,0.25805132988636825,0.2797487745098039,0.2628759284362733,0.2594300201455374,subject_aware; duration=10s; feature_set=combined,10.0,combined,subject_aware
+rf,val,0.225,0.2179677960927961,0.22499999999999998,0.21915107896058952,0.21915107896058952,file_level_not_main_eval; duration=10s; feature_set=combined,10.0,combined,file_level_not_main_eval
+rf,test,0.25833333333333336,0.25210848813209497,0.25833333333333336,0.24708513900729376,0.24708513900729376,file_level_not_main_eval; duration=10s; feature_set=combined,10.0,combined,file_level_not_main_eval

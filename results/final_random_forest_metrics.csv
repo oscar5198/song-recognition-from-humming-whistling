@@ -1,0 +1,3 @@
+model,split,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,features,duration_seconds,notes
+final_random_forest,val,0.35833333333333334,0.3618454838075581,0.35463767237664295,0.35370879120879123,0.3600160256410257,combined,10.0,validation-selected diagnostic Random Forest; subject-aware split
+final_random_forest,test,0.275,0.25805132988636825,0.2797487745098039,0.2628759284362733,0.2594300201455374,combined,10.0,validation-selected diagnostic Random Forest; subject-aware split
